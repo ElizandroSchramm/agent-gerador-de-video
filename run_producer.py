@@ -21,7 +21,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--tema", required=True)
     ap.add_argument("--foco", default="YouTube Short + LinkedIn")
-    ap.add_argument("--brand", default="Clicksign")
+    ap.add_argument("--brand", default="Spark Pro")
     ap.add_argument("--style", default="Clean tech, minimal, depth of field, no text")
     ap.add_argument("--voice", default="alloy")
     ap.add_argument("--min_scenes", type=int, default=6)
